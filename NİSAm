@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisa'ya Özel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Özür Dilerim Nisa</h1>
+        <p>Özür dilerim, kabul eder misin?</p>
+        <button id="acceptBtn">Kabul Et</button>
+        <button id="rejectBtn">Reddet</button>
+        
+        <div id="response" style="display: none;">
+            <img src="kedi-resmi.jpg" alt="Kedi" id="catImage">
+            <p id="emoji">🥰🥰🥰💗💗💗</p>
+            <p id="thankYou">Hayatıma girdiğin için teşekkür ederim!</p>
+            <div id="heart" class="heart"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

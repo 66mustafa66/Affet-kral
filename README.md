@@ -1,2 +1,0 @@
-# Affet-kral
-Nisam
